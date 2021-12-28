@@ -1,8 +1,12 @@
+// Entry point for the application
+// vue cli will look in src directory for main.js
+// import Vue from 'vue';
 import Vue from 'vue'
-import App from './App.vue'
 
-Vue.config.productionTip = false
+
+import App from './App';
 
 new Vue({
-  render: h => h(App),
-}).$mount('#app')
+    //el: '#app',
+    render: h => h(App)
+}).$mount('#app');
